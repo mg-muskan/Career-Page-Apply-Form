@@ -1,0 +1,38 @@
+@media (max-width: 1200px) {
+    .landing-career-apply {
+        margin-top: -60px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .professor-div-form {
+        display: none;
+    }
+
+    .landing-career-apply {
+        margin-top: 10px;
+        padding: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .landing-career-apply {
+        margin-top: 30px;
+        padding: 10px;
+    }
+
+    .landing-career-apply-heading h2:after {
+        width: 360px;
+    }
+}
+
+@media (max-width: 370px) {
+    .landing-career-apply {
+        padding: 0;
+    }
+
+    .landing-career-apply-heading {
+        text-align: end;
+    }
+}

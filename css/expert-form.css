@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed';
+}
+
+.landing-career-apply-page {
+    margin-top: 50px;
+}
+
+.career-back {
+    /* margin-top: 60px; */
+    margin-left: 60px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.landing-career-apply {
+    margin-top: -100px;
+    padding: 40px;
+}
+
+.landing-career-apply-heading {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.landing-career-apply-heading h2:after {
+    content: '';
+    display: block;
+    width: 410px;
+    height: 3px;
+    background-color: #3742fa;
+}
+
+.professor-div-form {
+    height: 600px;
+    background-image: url("http://endiavolve.com/frontend/img/career/professor-form1.png") !important;
+    background-size: cover;
+}
+
+.landing-career-apply-form {
+    /* margin-top: 20px; */
+    padding: 40px;
+}
+
+.landing-career-apply-form .form-control,
+.landing-career-apply-form .form-select {
+    border-radius: 0;
+    border-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #414;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.landing-career-apply-form input::-webkit-outer-spin-button,
+.landing-career-apply-form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.landing-career-apply-form input[type=number] {
+  -moz-appearance: textfield;
+  appearance: none;
+}
+
+.landing-career-apply-form .file {
+    border: 2px double #3742fa;
+    color: #41464b;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.landing-career-apply-form .file::-webkit-file-upload-button {
+    background-color: #3742fa;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+}
+
+.landing-career-apply-form .file::-webkit-file-upload-button:hover,
+.landing-career-apply-form .file::-webkit-file-upload-button:focus {
+    background-color: #ffa502;
+}
+
+.landing-career-apply-submit {
+    text-align: end;
+}
+
+.landing-career-apply-submit > .btn {
+    color: #fff;
+    border-radius: 0;
+    width: 100px;
+    background-color: #3742fa;
+    transition: width .5s ease-in-out;
+}
+
+.landing-career-apply-submit > .btn:hover {
+    background-color: #ffa502;
+}
+
+.landing-career-apply-form .form-select {
+    overflow: hidden;
+}
+
+.landing-career-apply-form .form-select option {
+    padding: 5px;
+}
+
+.landing-career-apply-form .form-select option:hover {
+    color: #fff;
+    background-color: #ffa502;
+}
